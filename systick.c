@@ -4,8 +4,9 @@
  *  Created on: 19-Nov-2021
  *      Author: Admin
  */
-
-
+ //This project was implemented on STM32f401RB custom board and infenion XMC4400 platform to kit to toggle the led with delay 
+// generic for any cortex M4 series MCU 
+// just change the Mcu clock in systick.h file according to our MCU clk speed
 /*
  * systick.c
  *
